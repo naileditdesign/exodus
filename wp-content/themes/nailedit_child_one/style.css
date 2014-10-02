@@ -1,0 +1,65 @@
+/*
+Theme Name: Nailed It Child Theme
+Theme URI: http: //naileditdesign.com/
+Description: This is a custom child theme for Nailed It Boilerplate
+Author: Adam Jackson
+Author URI: http: //naileditdesign.com/
+Template: nailedit_boilerplate
+Version: 0.1
+*/
+
+@import url("../nailedit_boilerplate/style.css");
+
+
+/* Global */
+
+/* Header */
+
+.logo {
+	display: block;
+	margin: 0;
+	float: left;
+}
+
+.top-bar, .top-bar-section ul, .top-bar-section ul li:hover, .top-bar-section li a:not(.button), .no-js .top-bar-section ul li:hover>a {
+background: none;
+color: #444;
+}
+
+.top-bar { float: right; margin-top:20px; }
+
+.top-bar-section li a:not(.button):hover { background: #272727;  color: white; }
+
+.top-bar-section .dropdown { background: #272727;  }
+
+.top-bar-section .dropdown li a:not(.button) { color: white; }
+
+.top-bar-section .dropdown li a:not(.button):hover { background: #444; }
+
+/* Basic Banner */
+
+.home_basic .slick-slide { 
+	height:400px; 
+	overflow: hidden; 
+}
+
+.home_basic .captions { 
+	position: absolute; 
+	bottom: 10px;
+	left: 0;
+	z-index: 1; 
+	padding:20px; 
+}
+
+.home_basic .captions h2,
+.home_basic .captions p { 	
+	color: white; 
+}
+
+.home_basic .captions h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+/* Footer */
